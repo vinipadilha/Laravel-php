@@ -11,7 +11,7 @@ class AuthController extends Controller
         return view('login');
     }
 
-    public function loginSubmit( Request $request)
+    public function loginSubmit(Request $request)
     {
         $request->validate(
             [
